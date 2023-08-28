@@ -1,0 +1,158 @@
+/* common styles  */
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.color-primary {
+    color: #E55473;
+}
+
+.btn-primary {
+    padding: 15px 43px;
+    background-color: #E55473;
+    color: #FFF;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* header section  */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E554731A;
+    width: 1920px;
+    height: 850px;
+
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-descriptin {
+    width: 650px;
+    height: 90px;
+    margin: 32px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.header-image {
+    width: 635px;
+    height: 850px;
+
+}
+
+/* featured follower section   */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    width: 600px;
+    height: 60px;
+    margin: auto;
+    padding: 50px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flower-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.flower {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.flower img {
+    width: 310px;
+    height: 428px
+}
+
+.flower-name {
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* discount-section */
+
+.discount {
+    width: 1922px;
+    height: 620px;
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.discount-info {
+    width: 70%;
+    text-align: center;
+}
+
+.discount-title {
+    text-align: center;
+}
+
+.discount-flower {
+    width: 30%;
+}
+
+.discount-flower img {
+    width: 318px;
+    height: 420px;
+}
+
+/* footer section  */
+footer {
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+}
+
+.footer-bottom {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
