@@ -1,13 +1,10 @@
 /* common styles  */
 * {
-    /* margin: 0;
-    padding: 0; */
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
 main {
-    margin: 240px auto;
+    margin: 240px 0;
 }
 
 .color-primary {
@@ -21,7 +18,9 @@ main {
     border: 0;
     border-radius: 8px;
 }
-
+.btn-primary:hover{
+    background-color: #272727;
+}
 /* header section  */
 .header-container {
     display: flex;
@@ -127,7 +126,7 @@ main {
 }
 
 .discount-flower img {
-    width: 318px;
+    width: 450px;
     height: 420px;
 }
 
@@ -138,6 +137,27 @@ main {
     justify-content: center;
 }
 
+/* user review */
+.review-container{
+    display: flex ;
+    justify-content: center;
+}
+.review{
+    width: 200px;
+    margin: 20px;
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+.five-star{
+    display: flex;
+    gap: 5px;
+}
+.five-star i{
+    color: #FFF;
+    background-color:#00b67a;
+    padding: 2px;
+    border-radius: 2px;
+}
 /* form section */
 .subscribe {
     background-image: url(images/Rectangle\ 9.png);
