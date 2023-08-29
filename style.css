@@ -159,6 +159,11 @@ main {
     padding: 2px;
     border-radius: 2px;
 }
+.review-time{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
 /* form section */
 .subscribe {
     background-image: url(images/Rectangle\ 9.png);
